@@ -1,11 +1,13 @@
 ---
-title: almost-open
+title: How To Make (almost) Anything
 lead: A self-paced, FOSS-first course — design, cut, print, mill, board, integrate, document.
 permalink: /
 layout: home.njk
 ---
 
 Weekly work is pieces of **one final project**. Lab safety and local machine settings override any number in these pages.
+
+Inspired by MIT’s [How To Make (almost) Anything](https://fab.cba.mit.edu/classes/MAS.863/). Provenance: [References](references.md).
 
 ## Weeks
 

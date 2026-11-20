@@ -1,8 +1,8 @@
 # almost-open
 
-**How To Make (almost) Anything, Open** — a self-paced, FOSS-first course. Design → cut/print/mill → boards → integrate → document. Weekly pieces become one final project.
+**How To Make (almost) Anything** — a self-paced, FOSS-first course. Design → cut/print/mill → boards → integrate → document. Weekly pieces become one final project.
 
-This is a **completely open** course: one curriculum tree, no student/instructor gates.
+Inspired by MIT’s [How To Make (almost) Anything](https://fab.cba.mit.edu/classes/MAS.863/). This is a **completely open** course: one curriculum tree, no student/instructor gates.
 
 **Live site:** [https://a1-workshop.github.io/almost-open/](https://a1-workshop.github.io/almost-open/)  
 **Org hub:** [https://a1-workshop.github.io](https://a1-workshop.github.io)
@@ -39,4 +39,4 @@ Authors/agents: see [`AGENTS.md`](AGENTS.md).
 
 ## Brand
 
-**almost-open** — reading-first, FOSS-default, week spine aligned with HTMAA course-design architecture.
+**How To Make (almost) Anything** — reading-first, FOSS-default, week spine inspired by MIT HTMAA. Repo slug: `almost-open`.

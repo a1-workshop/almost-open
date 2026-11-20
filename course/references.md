@@ -1,9 +1,13 @@
 ---
 title: References
-lead: Provenance, sources, and how this course relates to HTMAA — in one place.
+lead: Provenance, sources, and how this course relates to MIT HTMAA — in one place.
 ---
 
 This page is the only home for provenance notes. Week pages stay focused on practice.
+
+## Inspiration
+
+Inspired by MIT’s [How To Make (almost) Anything](https://fab.cba.mit.edu/classes/MAS.863/) (MAS.863). This workshop is an independent, open rewrite for self-paced practice — not affiliated with MIT, not a mirror of gated class materials, and not a substitute for enrolled lab training.
 
 ## Provenance labels
 
@@ -18,9 +22,9 @@ Useful when reading or extending the course:
 
 ## How this course is built
 
-almost-open follows the **week spine and competency matrix** from the HTMAA course-design architecture (self-paced complete course: time slot, practice path, depth when evidence exists, assessment signal). It is an **open rewrite**, not a mirror of gated decks or a substitute for enrolled lab training.
+The week spine and competency matrix follow HTMAA course-design architecture (self-paced complete course: time slot, practice path, depth when evidence exists, assessment signal).
 
-Inspiration paths (local checkouts used when authoring):
+Authoring paths (local checkouts):
 
 - `~/src/how-to-make-anything/reports/course-design.md` — spine, matrix, journeys
 - `~/src/how-to-make-anything/reports/study-guides/` — week practice themes
