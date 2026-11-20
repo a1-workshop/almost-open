@@ -28,11 +28,14 @@ Markdown in `course/` is the SSOT. The site is generated; do not hand-mirror les
 | `course/` | Open curriculum (weeks, processes, tools, references) |
 | `site/` | Eleventy layouts and CSS |
 | `.github/workflows/` | Pages deploy |
-| `.cursor/rules/` | Author/agent rules (not published as lessons) |
+| `AGENTS.md` | Cursor / author standing policy |
+| `.cursor/rules/` | Scoped authoring rules |
 
 ## Location / org
 
-Local home: `~/src/a1-workshop/almost-open` (sibling to `a1-inventor` and `a1-workshop.github.io`). Git remotes stay independent. See [`RELOCATION.md`](RELOCATION.md) for the hub split notes.
+Local home: `~/src/a1-workshop/almost-open` (sibling to `a1-inventor` and `a1-workshop.github.io`). Git remotes stay independent.
+
+Authors/agents: see [`AGENTS.md`](AGENTS.md).
 
 ## Brand
 

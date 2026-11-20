@@ -9,11 +9,12 @@ alwaysApply: false
 
 # almost-open authoring
 
+Standing repo law: [`AGENTS.md`](../../AGENTS.md). Keep agent policy out of generated site pages and lesson chrome.
+
 ## Open course
 
 - Public curriculum lives only under `course/`. Anyone may read everything there.
 - Do **not** reintroduce `student/`, `instructor/`, facilitator-only paths, or audience gates.
-- Agent/author policy belongs in `.cursor/rules/` — never in generated site pages or lesson chrome.
 
 ## Pedagogy
 

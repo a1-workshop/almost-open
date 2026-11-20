@@ -29,12 +29,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.ignores.add("node_modules/**");
   eleventyConfig.ignores.add("site/_site/**");
   eleventyConfig.ignores.add("README.md");
-  eleventyConfig.ignores.add("RELOCATION.md");
+  eleventyConfig.ignores.add("AGENTS.md");
   eleventyConfig.ignores.add(".github/**");
   eleventyConfig.ignores.add(".cursor/**");
   eleventyConfig.ignores.add("design/**");
-  eleventyConfig.ignores.add("instructor/**");
-  eleventyConfig.ignores.add("student/**");
   eleventyConfig.ignores.add("docs/**");
   eleventyConfig.ignores.add("reference/**");
   eleventyConfig.ignores.add("package.json");
