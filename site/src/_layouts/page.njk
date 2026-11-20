@@ -1,0 +1,41 @@
+---
+layout: base.njk
+bodyClass: doc-page
+---
+<main class="doc">
+  <div class="wrap doc__layout">
+    {% include "week-nav.njk" %}
+    <div class="doc__main">
+      <h1 class="doc__title">{{ title }}</h1>
+      {% if lead %}<p class="doc__lead">{{ lead }}</p>{% endif %}
+      {% if time or goal %}
+      <p class="meta-row">
+        {% if time %}<strong>Time:</strong> {{ time }}{% endif %}
+        {% if time and goal %} · {% endif %}
+        {% if goal %}<strong>Goal:</strong> {{ goal }}{% endif %}
+      </p>
+      {% endif %}
+      <div class="prose">
+        {{ content | safe }}
+      </div>
+      {% if week %}
+      <nav class="pager" aria-label="Adjacent weeks">
+        <div>
+          {% for w in collections.weeks %}
+            {% if w.data.week == week and not loop.first %}
+              <a href="{{ collections.weeks[loop.index0 - 1].url | url }}">← Week {{ collections.weeks[loop.index0 - 1].data.week }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <div>
+          {% for w in collections.weeks %}
+            {% if w.data.week == week and not loop.last %}
+              <a href="{{ collections.weeks[loop.index0 + 1].url | url }}">Week {{ collections.weeks[loop.index0 + 1].data.week }} →</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </nav>
+      {% endif %}
+    </div>
+  </div>
+</main>

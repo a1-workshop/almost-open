@@ -1,0 +1,13 @@
+---
+layout: base.njk
+bodyClass: home-page
+---
+<main>
+  <div class="wrap home-intro">
+    <h1 class="home-intro__brand">almost<em>-open</em></h1>
+    {% if lead %}<p class="home-intro__lead">{{ lead }}</p>{% endif %}
+    <div class="prose">
+      {{ content | safe }}
+    </div>
+  </div>
+</main>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if title and title != site.title %}{{ title }} — {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ description or lead or site.description }}" />
+    <link rel="stylesheet" href="{{ '/assets/styles.css' | url }}" />
+  </head>
+  <body class="{{ bodyClass or '' }}">
+    {% include "header.njk" %}
+    {{ content | safe }}
+    {% include "footer.njk" %}
+  </body>
+</html>

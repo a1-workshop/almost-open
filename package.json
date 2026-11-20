@@ -1,0 +1,15 @@
+{
+  "name": "almost-open",
+  "version": "0.1.0",
+  "private": true,
+  "description": "How To Make (almost) Anything, Open — self-paced FOSS workshop",
+  "scripts": {
+    "build": "eleventy --config=site/eleventy.config.js",
+    "dev": "eleventy --config=site/eleventy.config.js --serve --port=8080",
+    "clean": "rm -rf site/_site"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "markdown-it": "^14.1.0"
+  }
+}

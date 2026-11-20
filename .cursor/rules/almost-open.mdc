@@ -1,0 +1,38 @@
+---
+description: Authoring rules for the almost-open open course
+globs:
+  - course/**/*.md
+  - site/**/*
+  - README.md
+alwaysApply: false
+---
+
+# almost-open authoring
+
+## Open course
+
+- Public curriculum lives only under `course/`. Anyone may read everything there.
+- Do **not** reintroduce `student/`, `instructor/`, facilitator-only paths, or audience gates.
+- Agent/author policy belongs in `.cursor/rules/` — never in generated site pages or lesson chrome.
+
+## Pedagogy
+
+- Spine is **weeks 1–15** (HTMAA course-design). Each week page is the required practice path.
+- Template: **Time**, **Goal**, **Steps**, **Done when**. No honesty banners on week pages.
+- Provenance and source pointers go in `course/references.md` only.
+- Do not invent lecture transcripts where evidence is missing. Gaps stay gaps.
+- Prefer FOSS worked paths. Commercial tools are catalog alternatives, not mandates.
+- Lab safety training and local machine settings override any number in a guide.
+- Assessment signals (Done when) stay even when depth is thin.
+
+## Site
+
+- Eleventy builds from `course/**/*.md` only. Shallow URLs: `/`, `/weeks/`, `/weeks/NN/`, `/references/`.
+- Keep the reading-first light theme; do not re-port a1-workshop.github.io proposal chrome as the course UI.
+- Org Pages split vs A1 Inventor is out of scope for curriculum edits; do not modify repos outside almost-open.
+
+## Adding a week
+
+1. Add or edit `course/weeks/NN-slug.md`.
+2. Link it from `course/index.md` week table.
+3. Add process/tool notes under `course/processes/` or `course/tools/` only when the week needs them.

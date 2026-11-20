@@ -1,0 +1,12 @@
+<nav class="doc__side" aria-label="Weeks">
+  <p class="doc__side-label">Weeks</p>
+  <ol class="week-nav">
+    {% for week in collections.weeks %}
+    <li>
+      <a href="{{ week.url | url }}"{% if page.url == week.url %} aria-current="page"{% endif %}>
+        {{ week.data.week | default(loop.index) }}. {{ week.data.shortTitle or week.data.title }}
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</nav>
