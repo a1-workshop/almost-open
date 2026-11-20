@@ -4,6 +4,9 @@
 
 This is a **completely open** course: one curriculum tree, no student/instructor gates.
 
+**Live site:** [https://a1-workshop.github.io/almost-open/](https://a1-workshop.github.io/almost-open/)  
+**Org hub:** [https://a1-workshop.github.io](https://a1-workshop.github.io)
+
 ## Start
 
 Read [`course/index.md`](course/index.md) (or the site home after build). Weeks live under [`course/weeks/`](course/weeks/). Provenance and sources: [`course/references.md`](course/references.md).
@@ -12,11 +15,11 @@ Read [`course/index.md`](course/index.md) (or the site home after build). Weeks 
 
 ```bash
 npm install
-npm run dev    # http://localhost:8080
+npm run dev    # http://localhost:8080  (pathPrefix still /almost-open/ in output links)
 npm run build  # site/_site/
 ```
 
-Markdown in `course/` is the SSOT. The site is generated; do not hand-mirror lessons into HTML.
+Markdown in `course/` is the SSOT. The site is generated; do not hand-mirror lessons into HTML. GitHub Actions deploys `site/_site` to project Pages on push to `main`.
 
 ## Repo map
 
@@ -24,11 +27,12 @@ Markdown in `course/` is the SSOT. The site is generated; do not hand-mirror les
 | --- | --- |
 | `course/` | Open curriculum (weeks, processes, tools, references) |
 | `site/` | Eleventy layouts and CSS |
+| `.github/workflows/` | Pages deploy |
 | `.cursor/rules/` | Author/agent rules (not published as lessons) |
 
 ## Location / org
 
-Intended local home: `~/src/a1-workshop/almost-open` (sibling to `a1-inventor` and `a1-workshop.github.io`). The org Pages site will become a hub for **AI-Powered Inventor** and **almost-open**. See [`RELOCATION.md`](RELOCATION.md) for the move checklist and hub notes — move the directory manually; hub edits happen in the a1-workshop workspace.
+Local home: `~/src/a1-workshop/almost-open` (sibling to `a1-inventor` and `a1-workshop.github.io`). Git remotes stay independent. See [`RELOCATION.md`](RELOCATION.md) for the hub split notes.
 
 ## Brand
 

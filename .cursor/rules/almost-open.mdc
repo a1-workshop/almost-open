@@ -27,9 +27,9 @@ alwaysApply: false
 
 ## Site
 
-- Eleventy builds from `course/**/*.md` only. Shallow URLs: `/`, `/weeks/`, `/weeks/NN/`, `/references/`.
+- Eleventy builds from `course/**/*.md` only. Shallow URLs: `/`, `/weeks/`, `/weeks/NN/`, `/references/` (served under pathPrefix `/almost-open/` on project Pages).
 - Keep the reading-first light theme; do not re-port a1-workshop.github.io proposal chrome as the course UI.
-- Org Pages split vs A1 Inventor is out of scope for curriculum edits; do not modify repos outside almost-open.
+- Curriculum edits stay in this repo (`course/`, `site/`). Org hub listing lives in sibling `a1-workshop.github.io` — link the live hub URL from README/references when needed; do not vendor `course/` into the hub.
 
 ## Adding a week
 

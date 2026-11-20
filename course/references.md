@@ -36,3 +36,7 @@ Inspiration paths (local checkouts used when authoring):
 
 - Week list: [course index](index.md)
 - Short process/tool notes under `processes/` and `tools/` as weeks need them
+
+## Org hub
+
+almost-open is published under the **A1 Workshop** org. The multi-workshop brochure is [a1-workshop.github.io](https://a1-workshop.github.io); this course’s live site is [a1-workshop.github.io/almost-open/](https://a1-workshop.github.io/almost-open/).
